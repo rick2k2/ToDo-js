@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick To-Do List</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <h2 class="Heading">Rick's To-DO</h2>
+    <div class="container_field">
+        <input  class="inp_design" type="text" placeholder="Enter Task name" id="task_heading"/>
+        <input  class="inp_design" type="text" placeholder="Enter Task Description" id="task_description"/>
+        <span class="message_txt" id="message"></span>
+        <button id="add_task">Add task</button>
+    </div>
+    <div class="task_heading2">
+        <h2>Your Tasks Lists</h2><span id="show_num_tasks">Total tasks:${num}</span>
+    </div>
+    <div class="task_container" id="tasks_container">
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
